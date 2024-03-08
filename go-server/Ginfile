@@ -1,0 +1,3 @@
+; Ginfile
+[build]
+main = "main.go"

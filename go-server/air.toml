@@ -1,0 +1,7 @@
+# air.toml
+root = "."
+build = "go build -o ./tmp/main ."
+bin = "./tmp/main"
+
+[[watcher]]
+go_paths = ["./"]
